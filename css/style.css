@@ -1,0 +1,134 @@
+@font-face {
+	font-family: 'Proxima Nova Thin';
+	src: url('../fonts/ProximaNovaT-Thin.ttf');
+	src: local('ProximaNovaT-Thin'), url('../fonts/ProximaNovaT-Thin.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-color: #f3f4f5;
+	font-family: 'Proxima Nova Thin';
+} 
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	outline: none !important;
+}
+
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 200px;
+	background-color: #004359;
+}	
+footer h2 {
+	color: #fff;
+}
+
+.content {
+	min-height: 1000px;
+}
+
+.content h2 {
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.navbar {
+ font-weight: 600;
+ letter-spacing: .05em;
+ background:#004359;
+ font-size: 15px;
+}
+.nav-link , .navbar-brand{
+ color: #f4f4f4;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+}
+.nav-link:hover{
+ color: #829399;
+}
+ .navbar-collapse{
+ justify-content: flex-end;
+}  
+.navbar-toggler{
+  background:#fff !important;
+}
+
+.button-login {
+width: 85px;
+height: 36px;
+ border: none;
+ background: #09C;
+ color:#fff;
+ justify-content: right;
+
+}
+
+.button-login:hover {
+	background: #69C8;
+	color:#fff;
+}
+
+.button-read {
+width: 85px;
+height: 36px;
+ border: none;
+	background: #79C8;
+ color:#fff;
+ justify-content: right;
+
+}
+
+.button-read:hover {
+
+	 background: #09D;
+	color:#fff;
+}
+
+.navbar-form {
+	justify-content: center;
+}
+
+.container_menu_down {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 54px;
+	background-color: white;
+	box-shadow: 0 0 10px 1px rgba(100,100,100,.25);
+	font-family: 'Proxima Nova Thin';
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	font-size: 15px;   
+	line-height: 52px;
+}
+
+.active {
+	border-bottom: 2px solid red;
+}
+
+.text-muted 
+{
+	margin-right: 35px;
+	text-decoration: none;
+}
+
+.text-muted:hover{
+	color: red;
+}
+
+
